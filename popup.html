@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>TagChat Launcher</title>
+
+    <style>
+        html, body {
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+            background-color: #393A41;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: #FEFEFE;
+        }
+        img {
+            width: 30px;
+        }
+
+        .launch-btn {
+            border: 1px solid #1B402E;
+            margin-top: 1rem;
+            padding: 0.8rem;
+            color: #FEFEFE;
+            font-weight: bold;
+            font-size: 1rem;
+            background-color: #1B402E;
+            border: none;
+            border-radius: 3px;
+            background-color: #1B402E;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+
+        .launch-btn:hover {
+            color: #1B402E;
+            background-color: #FEFEFE;
+        }
+
+        .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #FEFEFE;
+        }
+
+        .logo {
+            padding: 16px;
+        }
+
+        .logo-icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+        .version {
+            color: #C6C6C6;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="tagchat128.png" alt="TagChat Launcher" class="logo-icon"> TagChat Launcher <span class="version">(1.0.0)</span>
+        </h1>
+        <button class="launch-btn">
+            Record
+        </button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

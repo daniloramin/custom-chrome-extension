@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "TagChat",
+  "description": "Quick launch TagChat user assistance service.",
+  "version": "1.0.0",
+  "icons": { "128": "tagchat128.png" },
+  "browser_action": {
+    "default_icon": "tagchat18.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
